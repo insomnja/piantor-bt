@@ -140,7 +140,7 @@
             >;
         };
 
-        action_layer {
+        conditional_layer {
             display-name = "ACTION";
             bindings = <
 &kp TAB  &rgb_ug RGB_EFF  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_PLAY_PAUSE  &kp C_BRI_DEC  &kp C_BRIGHTNESS_INC  &kp PAGE_UP  &kp PAGE_DOWN  &trans  &trans  &kp ESC  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans  &kp LSHFT  &bt BT_CLR  &rgb_ug RGB_TOG  &sys_reset  &bootloader  &studio_unlock  &kp K_COPY  &kp K_PASTE  &kp K_CUT  &kp K_CANCEL  &trans  &trans  &kp LGUI  &kp SPACE  &trans  &kp ENTER  &kp BACKSPACE  &trans
