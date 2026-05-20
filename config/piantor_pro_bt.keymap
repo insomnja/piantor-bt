@@ -136,7 +136,7 @@
             //                    | GUI |     | SPC | ENT |     | ALT |
 
             bindings = <
-&kp TAB  &kp ASTERISK  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &trans  &trans  &kp TILDE  &trans  &kp ESC  &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &trans  &kp LSHFT  &trans  &trans  &trans  &trans  &trans  &kp K_COPY  &kp K_PASTE  &kp K_CUT  &kp K_CANCEL  &trans  &trans  &kp LGUI  &kp SPACE  &trans  &kp RET  &kp BACKSPACE  &trans
+&kp TAB  &kp ASTERISK  &kp AT  &kp HASH  &kp TILDE  &kp PRCNT  &kp CARET  &kp AMPS  &TPLTbrackets_open  &TPLTbrackets_closed  &TPLTslash  &trans  &kp ESC  &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &trans  &kp LSHFT  &trans  &trans  &trans  &trans  &trans  &kp K_COPY  &kp K_PASTE  &kp K_CUT  &kp K_CANCEL  &trans  &trans  &kp LGUI  &kp SPACE  &trans  &kp RET  &kp BACKSPACE  &trans
             >;
         };
 
