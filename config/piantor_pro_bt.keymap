@@ -122,7 +122,7 @@
             //                    | GUI |     | SPC   | ENT |     | ALT |
 
             bindings = <
-&kp TAB  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &kp ESC  &kp PLUS  &kp MINUS  &kp ASTERISK  &kp LS(SLASH)  &kp LS(EQUAL)  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans  &kp LSHFT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LGUI  &kp SPACE  &trans  &kp ENTER  &kp BACKSPACE  &trans
+&kp TAB  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &kp ESC  &kp PLUS  &kp MINUS  &kp ASTERISK  &kp LS(SLASH)  &kp LS(EQUAL)  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans  &kp LSHFT  &trans  &trans  &trans  &trans  &trans  &kp K_COPY  &kp K_PASTE  &kp K_CUT  &kp K_CANCEL  &trans  &trans  &kp LGUI  &kp SPACE  &trans  &kp ENTER  &kp BACKSPACE  &trans
             >;
         };
 
@@ -136,14 +136,14 @@
             //                    | GUI |     | SPC | ENT |     | ALT |
 
             bindings = <
-&kp TAB  &kp ASTERISK  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &trans  &trans  &kp TILDE  &trans  &kp ESC  &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &trans  &kp LSHFT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LGUI  &kp SPACE  &trans  &kp RET  &kp BACKSPACE  &trans
+&kp TAB  &kp ASTERISK  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &trans  &trans  &kp TILDE  &trans  &kp ESC  &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &trans  &kp LSHFT  &trans  &trans  &trans  &trans  &trans  &kp K_COPY  &kp K_PASTE  &kp K_CUT  &kp K_CANCEL  &trans  &trans  &kp LGUI  &kp SPACE  &trans  &kp RET  &kp BACKSPACE  &trans
             >;
         };
 
         action_layer {
             display-name = "ACTION";
             bindings = <
-&kp TAB  &rgb_ug RGB_COLOR_HSB(0,100,50)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp ESC  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans  &kp LSHFT  &bt BT_CLR  &rgb_ug RGB_TOG  &sys_reset  &bootloader  &studio_unlock  &trans  &trans  &trans  &trans  &trans  &trans  &kp LGUI  &kp SPACE  &trans  &kp ENTER  &kp BACKSPACE  &trans
+&kp TAB  &rgb_ug RGB_EFF  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_PLAY_PAUSE  &kp C_BRI_DEC  &kp C_BRIGHTNESS_INC  &kp PAGE_UP  &kp PAGE_DOWN  &trans  &trans  &kp ESC  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans  &kp LSHFT  &bt BT_CLR  &rgb_ug RGB_TOG  &sys_reset  &bootloader  &studio_unlock  &kp K_COPY  &kp K_PASTE  &kp K_CUT  &kp K_CANCEL  &trans  &trans  &kp LGUI  &kp SPACE  &trans  &kp ENTER  &kp BACKSPACE  &trans
             >;
         };
 
