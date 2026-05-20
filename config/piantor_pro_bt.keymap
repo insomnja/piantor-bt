@@ -122,7 +122,7 @@
             //                    | GUI |     | SPC   | ENT |     | ALT |
 
             bindings = <
-&kp TAB  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp RCTRL  &kp ESC  &kp PLUS  &kp MINUS  &kp ASTERISK  &kp LS(SLASH)  &kp LS(EQUAL)  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &kp RIGHT_ALT  &kp LSHFT  &trans  &trans  &trans  &trans  &trans  &kp K_COPY  &kp K_PASTE  &kp K_CUT  &kp K_CANCEL  &trans  &trans  &kp LGUI  &kp SPACE  &trans  &kp ENTER  &kp BACKSPACE  &trans
+&kp TAB  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp RCTRL  &kp ESC  &kp PLUS  &kp MINUS  &kp ASTERISK  &kp LS(SLASH)  &kp LS(EQUAL)  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &kp RIGHT_ALT  &kp LSHFT  &trans  &trans  &trans  &trans  &trans  &kp C_AC_COPY  &kp C_AC_PASTE  &kp C_AC_CUT  &kp C_AC_CANCEL  &trans  &trans  &kp LGUI  &kp SPACE  &trans  &kp ENTER  &kp BACKSPACE  &trans
             >;
         };
 
@@ -194,7 +194,7 @@
         compatible = "zmk,conditional-layers";
 
         action {
-            if-layers = <2 2>;
+            if-layers = <1 2>;
             then-layer = <3>;
         };
     };
