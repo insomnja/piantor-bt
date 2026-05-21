@@ -122,7 +122,7 @@
             //                    | GUI |     | SPC   | ENT |     | ALT |
 
             bindings = <
-&kp TAB  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp RCTRL  &kp ESC  &kp PLUS  &kp MINUS  &kp ASTERISK  &kp LS(SLASH)  &kp LS(EQUAL)  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &kp RIGHT_ALT  &kp LSHFT  &trans  &trans  &trans  &trans  &trans  &kp C_AC_COPY  &kp C_AC_PASTE  &kp C_AC_CUT  &kp C_AC_CANCEL  &trans  &trans  &kp LGUI  &kp SPACE  &trans  &kp ENTER  &kp BACKSPACE  &trans
+&kp TAB  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp RCTRL  &kp ESC  &kp PLUS  &kp MINUS  &kp ASTERISK  &kp LS(SLASH)  &kp LS(EQUAL)  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &kp RIGHT_ALT  &kp LSHFT  &trans  &trans  &trans  &trans  &trans  &kp LC(C)  &kp LC(V)  &kp LC(X)  &kp DEL  &trans  &kp LS(LG(S))  &kp LGUI  &kp SPACE  &trans  &kp ENTER  &kp BACKSPACE  &trans
             >;
         };
 
@@ -136,14 +136,14 @@
             //                    | GUI |     | SPC | ENT |     | ALT |
 
             bindings = <
-&kp TAB  &kp ASTERISK  &kp AT  &kp HASH  &kp TILDE  &kp PRCNT  &kp CARET  &kp AMPS  &TPLTbrackets_open  &TPLTbrackets_closed  &TPLTslash  &kp RCTRL  &kp ESC  &DBTless  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &kp RIGHT_ALT  &kp LSHFT  &DBTgrave  &trans  &trans  &trans  &trans  &kp K_COPY  &kp K_PASTE  &kp K_CUT  &kp K_CANCEL  &trans  &trans  &kp LGUI  &kp SPACE  &trans  &kp RET  &kp BACKSPACE  &trans
+&kp TAB  &kp ASTERISK  &kp AT  &kp HASH  &kp TILDE  &kp PRCNT  &kp CARET  &kp AMPS  &TPLTbrackets_open  &TPLTbrackets_closed  &TPLTslash  &kp RCTRL  &kp ESC  &DBTless  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &kp RIGHT_ALT  &kp LSHFT  &DBTgrave  &trans  &trans  &trans  &trans  &kp LC(C)  &kp LC(V)  &kp LC(X)  &kp DEL  &trans  &kp LS(LG(S))  &kp LGUI  &kp SPACE  &trans  &kp RET  &kp BACKSPACE  &trans
             >;
         };
 
         conditional_layer {
             display-name = "ACTION";
             bindings = <
-&kp TAB  &rgb_ug RGB_EFF  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PLAY_PAUSE  &kp C_BRI_DEC  &kp C_BRIGHTNESS_INC  &kp PAGE_UP  &kp PAGE_DOWN  &kp C_SLEEP  &kp RCTRL  &kp ESC  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp C_AL_LOCK  &kp RIGHT_ALT  &kp LSHFT  &bt BT_CLR  &rgb_ug RGB_TOG  &sys_reset  &bootloader  &studio_unlock  &kp C_AC_COPY  &kp C_AC_PASTE  &kp C_AC_CUT  &kp ALT_ERASE  &kp C_POWER  &kp C_SNAPSHOT  &kp LGUI  &kp SPACE  &trans  &kp ENTER  &kp BACKSPACE  &trans
+&kp TAB  &rgb_ug RGB_EFF  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PLAY_PAUSE  &kp C_BRI_DEC  &kp C_BRIGHTNESS_INC  &kp PAGE_UP  &kp PAGE_DOWN  &trans  &kp RCTRL  &kp ESC  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &kp RIGHT_ALT  &kp LSHFT  &bt BT_CLR  &rgb_ug RGB_TOG  &sys_reset  &bootloader  &studio_unlock  &kp LC(C)  &kp LC(V)  &kp LC(X)  &kp DEL  &kp LG(L)  &kp LS(LG(S))  &kp LGUI  &kp SPACE  &trans  &kp ENTER  &kp BACKSPACE  &trans
             >;
         };
 
