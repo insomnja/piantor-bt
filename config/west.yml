@@ -5,7 +5,7 @@ manifest:
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
     
-    - name: me
+    - name: insomnja
       url-base: https://github.com/insomnja
       
   projects:
@@ -15,7 +15,8 @@ manifest:
       import: app/west.yml
 
     - name: zmk-piantor-display
-      remote: me
+      remote: insomnja
       revision: main
+      
   self:
     path: config
