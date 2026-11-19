@@ -122,7 +122,7 @@
             //                    | GUI |     | SPC   | ENT |     | ALT |
 
             bindings = <
-&kp TAB  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp RCTRL  &kp ESC  &kp PLUS  &kp MINUS  &kp ASTERISK  &kp SLASH  &kp EQUAL  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &kp RIGHT_ALT  &kp LSHFT  &trans  &trans  &trans  &trans  &trans  &kp LC(C)  &kp LC(V)  &kp LC(X)  &kp DEL  &kp LG(L)  &kp LS(LG(S))  &kp LGUI  &kp SPACE  &trans  &kp ENTER  &kp BACKSPACE  &trans
+&kp TAB  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp RCTRL  &kp ESC  &kp PLUS  &kp MINUS  &kp ASTERISK  &kp SLASH  &kp EQUAL  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &tog 4  &kp RIGHT_ALT  &kp LSHFT  &none  &none  &none  &none  &none  &kp LC(C)  &kp LC(V)  &kp LC(X)  &kp DEL  &kp LG(L)  &kp LS(LG(S))  &kp LGUI  &kp SPACE  &trans  &kp ENTER  &kp BACKSPACE  &trans
             >;
         };
 
@@ -136,21 +136,21 @@
             //                    | GUI |     | SPC | ENT |     | ALT |
 
             bindings = <
-&kp TAB  &kp PIPE  &kp AT  &kp HASH  &kp AMPS  &kp PRCNT  &kp CARET  &kp TILDE  &TPLTbrackets_open  &TPLTbrackets_closed  &trans  &kp RCTRL  &kp ESC  &kp GRAVE  &kp SQT  &kp DOUBLE_QUOTES  &kp SLASH  &kp BACKSLASH  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &kp RIGHT_ALT  &kp LSHFT  &DBTless  &kp DOLLAR  &kp RA(N5)  &kp RA(LS(SEMICOLON))  &trans  &kp LC(C)  &kp LC(V)  &kp LC(X)  &kp DEL  &kp LG(L)  &kp LS(LG(S))  &kp LGUI  &kp SPACE  &trans  &kp RET  &kp BACKSPACE  &trans
+&kp TAB  &kp PIPE  &kp AT  &kp HASH  &kp AMPS  &kp PRCNT  &kp CARET  &kp TILDE  &TPLTbrackets_open  &TPLTbrackets_closed  &none  &kp RCTRL  &kp ESC  &kp GRAVE  &kp SQT  &kp DOUBLE_QUOTES  &kp SLASH  &kp BACKSLASH  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &none  &kp RIGHT_ALT  &kp LSHFT  &DBTless  &kp DOLLAR  &kp RA(N5)  &kp RA(LS(SEMICOLON))  &none  &kp LC(C)  &kp LC(V)  &kp LC(X)  &kp DEL  &kp LG(L)  &kp LS(LG(S))  &kp LGUI  &kp SPACE  &trans  &kp RET  &kp BACKSPACE  &trans
             >;
         };
 
         conditional_layer {
             display-name = "ACTION";
             bindings = <
-&kp TAB  &rgb_ug RGB_EFF  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PLAY_PAUSE  &kp C_BRI_DEC  &kp C_BRIGHTNESS_INC  &kp PAGE_UP  &kp PAGE_DOWN  &trans  &kp RCTRL  &kp ESC  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &kp RIGHT_ALT  &kp LSHFT  &rgb_ug RGB_TOG  &bt BT_CLR  &sys_reset  &bootloader  &studio_unlock  &kp LC(C)  &kp LC(V)  &kp LC(X)  &kp DEL  &kp LG(L)  &kp LS(LG(S))  &kp LGUI  &kp SPACE  &trans  &kp ENTER  &kp BACKSPACE  &trans
+&kp TAB  &rgb_ug RGB_EFF  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PLAY_PAUSE  &kp C_BRI_DEC  &kp C_BRIGHTNESS_INC  &kp PAGE_UP  &kp PAGE_DOWN  &none  &kp RCTRL  &kp ESC  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &kp RIGHT_ALT  &kp LSHFT  &rgb_ug RGB_TOG  &bt BT_CLR  &sys_reset  &bootloader  &studio_unlock  &kp LC(C)  &kp LC(V)  &kp LC(X)  &kp DEL  &kp LG(L)  &kp LS(LG(S))  &kp LGUI  &kp SPACE  &trans  &kp ENTER  &kp BACKSPACE  &trans
             >;
         };
 
-        NUMPAD {
-            display-name = "EXTRA 3";
+        numpad_layer {
+            display-name = "NUMPAD";
             bindings = <
-&kp SLASH  &kp MINUS  &kp N9  &kp N6  &kp N3  &kp EQUAL  &trans  &trans  &trans  &trans  &trans  &trans  &kp ASTERISK  &kp PLUS  &kp N8  &kp N5  &kp N2  &kp DOT  &trans  &trans  &trans  &trans  &trans  &trans  &TPLTbrackets_open  &TPLTbrackets_closed  &kp N7  &kp N4  &kp N1  &kp N0  &trans  &trans  &trans  &trans  &trans  &trans  &kp DEL  &kp BSPC  &kp ENTER  &trans  &trans  &trans
+&kp SLASH  &kp MINUS  &kp N9  &kp N6  &kp N3  &kp EQUAL  &none  &none  &none  &none  &none  &none  &kp ASTERISK  &kp PLUS  &kp N8  &kp N5  &kp N2  &kp DOT  &none  &none  &none  &none  &none  &none  &TPLTbrackets_open  &TPLTbrackets_closed  &kp N7  &kp N4  &kp N1  &kp N0  &none  &none  &none  &none  &none  &none  &kp DEL  &kp BSPC  &kp ENTER  &tog 0  &none  &none
             >;
         };
 
